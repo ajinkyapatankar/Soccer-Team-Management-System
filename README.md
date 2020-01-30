@@ -1,0 +1,3 @@
+# Soccer-Team-Management-System
+The aim of the project is to help the manager to select the best possible team from the pool of players. The primary factors taken into account will be Country, Age, Ranking, Position, potential etc. To fix best player for each position attributes like ST, RW, LW, RDM, CAM, CDM etc.
+Design best team combination based upon on the requirements specified by manager like club he would like to manage and team formation (4,3,2,1) or (4,2,3,1) strategy by using greedy approach to fix each position. After building team find best replacement for each player in team by determining dot product with other players.
