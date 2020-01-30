@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <title>FIFA</title>
+
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font_icon/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="assets/font_icon/css/helper.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/scroller/2.0.0/css/scroller.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <!-- google fonts -->
+    <link
+        href='http://fonts.googleapis.com/css?family=Dosis:200,300,400,500|Lato:300,400,700,900,300italic,400italic,700italic,900italic|Raleway:400,200,300,500,100|Titillium+Web:400,200,300italic,300,200italic'
+        rel='stylesheet' type='text/css'>
+
+    <script src="assets/js/modernizr.js"></script>
+
+</head>
+
+<body id="body">
+    <!--[if lt IE 7]>
+                <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!-- Header area -->
+    <header id="header">
+        <div class="center text-center">
+            <h1 class="bigheadline">FIFA</h1>
+            <h4 class="subheadline">Analytics</h4>
+        </div>
+        <!-- <div class="bottom">
+                <a data-scroll href="#navigation" class="scrollDown animated pulse" id="scrollToContent"><i class="pe-7s-angle-down-circle pe-va"></i></a>
+            </div> -->
+    </header>
+
+    <!-- Navigation area -->
+    <section id="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6">
+                    <div class="logo"><a data-scroll href="#body" class="logo-text">FIFA</a></div>
+                </div>
+                <div class="col-xs-6">
+                    <div class="nav">
+                        <a href="#" data-placement="bottom" title="Menu" class="menu" data-toggle="dropdown"><i
+                                class="pe-7s-menu"></i></a>
+                        <div class="dropdown-menu">
+                            <div class="arrow-up"></div>
+                            <ul>
+                                <li><a data-scroll href="#body">Home <i class="pe-7s-home"></i></a><span
+                                        class="menu-effect"></span></li>
+                                <li><a data-scroll href="#build">Build a Team <i class="pe-7s-network"></i></a><span
+                                        class="menu-effect"></span></li>
+                                <li><a data-scroll href="#manage">Manage a Club<i class="pe-7s-glasses"></i></a><span
+                                        class="menu-effect"></span></li>
+                                        <li><a data-scroll href="#statistics">Statistics<i class="pe-7s-graph"></i></a><span
+                                            class="menu-effect"></span></li>
+                                <!-- <li><a data-scroll href="#testimonial">Testimonial <i class="pe-7s-comment"></i><span class="menu-effect"></span></a></li>
+                                     <li><a data-scroll href="#contact">Contact <i class="pe-7s-help1"></i></a><span class="menu-effect"></span></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Area -->
+
+    <!-- services section -->
+
+    <section id="build" class="">
+        <div class="container">
+            <h2 class="block_title">Build Team</h2>
+            <div class="row">
+                <div id="buildTeam" class="footballField col-md-6 col-sm-6">
+                    <div id="red">
+                    </div>
+                    <!-- <div class="services">
+                            <div class="service-wrap">
+                                <i class="pe-7s-science pe-dj pe-va"></i>
+                                <h3>Creative Idea</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, commodi.</p>
+                            </div>
+                        </div> -->
+
+                </div>
+                <div class="col-md-2 col-sm-6">
+
+                    <div class="row">
+                        <label for="algoType">Algorithm:</label>
+                        <select class="form-control" id="algoType">
+                            <option value="" selected>Choose a algorithm</option>
+                            <option value="algo1">Greedy</option>
+                            <option value="algo2">Improved</option>
+
+                        </select>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <label for="formation">Formation:</label>
+                        <select class="form-control" id="formation">
+                            <option value="" selected>Choose a Formation</option>
+                            <option value="4231A">4-2-3-1A</option>
+                            <option value="433">4-3-3</option>
+                            <option value="442">4-4-2</option>
+                            <option value="352">3-5-2</option>
+
+                        </select>
+                    </div>
+
+                    <div class="row">
+                        <div class="btn-center" style="">
+
+                            <!-- <button id="buildTeam" class="btn medium button" type="button">Build Team</button> -->
+
+                            <a id="buildTeam2" style="font-size:20px" class="big button">Build Team</a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <label for="budget">Budget</label>
+                        <input type="text" id="budgetTeam" class="form-control">
+                    </div>
+
+                    <div class="row">
+                        <div class="btn-center" style="">
+
+                            <!-- <button id="buildTeam" class="btn medium button" type="button">Build Team</button> -->
+
+                            <a id="buildBudgetTeam2" style="font-size:20px" class="big button">Budget Team</a>
+                        </div>
+                    </div>
+
+
+                    <!-- <div class="col-md-3 col-sm-6">
+                        <div class="services">
+                            <div class="service-wrap">
+                                <i class="pe-7s-edit pe-dj pe-va"></i>
+                                <h3>Clean &amp; Nice</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, commodi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="services">
+                            <div class="service-wrap">
+                                <i class="pe-7s-config pe-dj pe-va"></i>
+                                <h3>Support</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, commodi.</p>
+                            </div>
+                        </div>
+                    </div> -->
+
+                </div>
+                <div class="col-md-4 col-sm-6" style="text-align:center;">
+ <div class="row" id="buildTeamScore">
+                    </div>
+
+                    <table id="example" class="table table-striped table-bordered" style="width:100%;height:100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Overall</th>
+                <th>Nationality</th>
+                <th>Club</th>
+            </tr>
+        </thead>
+    </table>
+                </div>
+            </div>
+            <br>
+        </div>
+    </section><!-- services -->
+
+    <!-- Portfolio Area -->
+
+    <section id="manage" class="portfolio-area">
+        <div class="container">
+            <h2 class="block_title">Manage a Club</h2>
+            <div class="row">
+                <div class="footballField col-md-6 col-sm-6">
+                    <div id="manageTeamContent">
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6">
+
+                    <div class="row">
+                        <label for="clubAlgoType">Algorithm:</label>
+                        <select class="form-control" id="clubAlgoType">
+                            <option value="" selected>Choose a algorithm</option>
+                            <option value="algo1">Greedy</option>
+                            <option value="algo2">Improved</option>
+
+                        </select>
+                    </div>
+
+                    <br>
+                    <div class="row">
+                        <label for="clubSelection">Select a Club:</label>
+                        <select class="form-control" id="clubSelection">
+                            <option value="" selected>Choose a Club</option>
+                            <option value="FC Barcelona">FC Barcelona</option>
+                            <option value="Liverpool">Liverpool</option>
+                            <option value="Chelsea">Chelsea</option>
+                            <option value="Manchester City">Manchester City</option>
+                            <option value="Manchester United">Manchester United</option>
+
+                        </select>
+                    </div>
+                    <br>
+                    <div class="row">
+                            <label for="nationalitySection">Select a Nation:</label>
+                            <select class="form-control" id="nationalitySection">
+                                <option value="" selected>Choose a Nation</option>
+                                <option value="Argentina">Argentina</option>
+                                <option value="Brazil">Brazil</option>
+                                <option value="Germany">Germany</option>
+                                <option value="England">England</option>
+                                <option value="France">France</option>
+                             </select>
+                        </div>
+                        <br>
+                    <div class="row">
+                        <label for="clubFormation">Select a Formation:</label>
+                        <select class="form-control" id="clubFormation">
+                            <option value="" selected>Choose a Formation</option>
+                            <option value="4231A">4-2-3-1A</option>
+                            <option value="433">4-3-3</option>
+                            <option value="442">4-4-2</option>
+                            <option value="352">3-5-2</option>
+
+                        </select>
+                    </div>
+                    <div class="row">
+                        <div class="btn-center" style="padding-top:43px">
+
+                            <!-- <button id="buildTeam" class="btn medium button" type="button">Build Team</button> -->
+
+                            <a id="manageTeam"  class="big button" style="font-size:20px">Build Team</a>
+                        </div>
+                    </div>
+
+
+                    <div class="row form-group">
+                            <label for="substitutePlayer">Subsitute a Player:</label>
+                            <select class="form-control" id="substitutePlayer">
+                                <option value="" selected>Choose a Substitute</option>
+                                <!-- <option value="4231A">4231A</option>
+                                <option value="433">433</option>
+                                <option value="4231A">4231A</option>
+                                <option value="4231A">4231A</option>
+                                <option value="4231A">4231A</option> -->
+    
+                            </select>
+                        </div>
+
+    <div class="row" id="sub">
+
+                    </div>
+
+
+
+                        <div class="row">
+                                <div class="btn-center" style="padding-top:32px">
+        
+                                    <!-- <button id="buildTeam" class="btn medium button" type="button">Build Team</button> -->
+        
+                                    <a id="substituteTeam" class="big button" style="font-size:15px">Substitute a Player</a>
+                                </div>
+                            </div>
+                    <!-- <div class="col-md-3 col-sm-6">
+                                <div class="services">
+                                    <div class="service-wrap">
+                                        <i class="pe-7s-edit pe-dj pe-va"></i>
+                                        <h3>Clean &amp; Nice</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, commodi.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="services">
+                                    <div class="service-wrap">
+                                        <i class="pe-7s-config pe-dj pe-va"></i>
+                                        <h3>Support</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, commodi.</p>
+                                    </div>
+                                </div>
+                            </div> -->
+                </div>
+                <div class="col-md-4 col-sm-6" style="text-align:center;">
+                    <div class="row" id="manageTeamScore">
+                    </div>
+                    <table id="example2" class="table table-striped table-bordered" style="width:100%;height:100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Overall</th>
+                <th>Nationality</th>
+                <th>Club</th>
+            </tr>
+        </thead>
+    </table>
+                </div>
+            </div>
+            <br>
+        </div>
+    </section><!-- portfolio -->
+
+
+    <section id="statistics" class="portfolio-area">
+        <div class="container">
+            <h2 class="block_title">Statistics</h2>
+            <div class="row">
+                    <label for="analytics">Analysis:</label>
+                    <select class="form-control" id="analytics">
+                        <option value="" selected>Choose a analysis</option>
+                        <option value="ov">Overall potential of clubs</option>
+                        <option value="op">percentage of players by position </option>
+                        <option value="age">distribution of players by country </option>
+                        <option value="att">radar plot of top 10 attackers </option>
+                        <option value="mid">radar plot of top 10 midfielders </option>
+                        <option value="def">radar plot of top 10 defenders </option>
+
+                        <!-- <option value="433">433</option>
+                        <option value="4231A">4231A</option>
+                        <option value="4231A">4231A</option>
+                        <option value="4231A">4231A</option> -->
+
+                    </select>
+                </div>
+            <br>
+            <div class="row">
+                    <div id="myChart" height=200"></div>
+
+            </div>
+            <br>
+        </div>
+    </section>
+    <!-- Testimonial Area -->
+
+
+    <!-- Contact Area -->
+
+    <!-- Footer Area -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="copyright" style="text-align: center">© Copyright Diva Project<a href="#" target="_blank"></a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Necessery scripts -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+    <script src="assets/js/jquery-2.1.3.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script> -->
+    <script src="assets/js/jquery.actual.min.js"></script>
+    <script src="assets/js/smooth-scroll.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/scripts_new.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+
+
+</body>
+
+</html>
